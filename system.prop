@@ -1,0 +1,93 @@
+# system prop for lilac
+
+### USB
+ro.usb.pid_suffix=1F4
+
+### DISPLAY
+ro.sf.lcd_density=320
+
+# HWComposer
+debug.sf.enable_hwc_vds=1
+debug.sf.hw=1
+debug.gralloc.enable_fb_ubwc=1
+debug.sf.latch_unsignaled=1
+
+# Enable VDS WFD solution
+persist.hwc.enable_vds=1
+
+# Skip HDR Tone map on Lilac
+sys.hwc_disable_hdr=1
+
+# Gamut
+persist.sys.colorgamut.mode=1
+
+### RADIO
+# Enable OEM SOCKET
+persist.radio.oem_socket=true
+
+# System props for telephony
+ro.com.android.dataroaming=false
+persist.ims.disableUserAgent=1
+
+# Modem power save enabled
+persist.radio.add_power_save=1
+
+# Added system property for PBM, support EF_ECC on APM
+persist.radio.wait_for_pbm=1
+
+# Set sms_ack timer
+persist.radio.mt_sms_ack=19
+
+# System props for single SIM phone (not DSDS products)
+persist.radio.block_allow_data=1
+
+### API
+# First released API level
+ro.product.first_api_level=26
+
+### SENSORS
+# Settings to enable sensors
+#Device Orientation sensor
+ro.vendor.sensors.dev_ori=true
+#Persistent Motion Detector
+ro.vendor.sensors.pmd=true
+#Stationary Detector
+ro.vendor.sensors.sta_detect=true
+#Motion Detector
+ro.vendor.sensors.mot_detect=true
+#Device Position Classifier
+ro.vendor.sensors.dpc=true
+#MultiShake sensor
+ro.vendor.sensors.multishake=true
+
+##### Add values MiscTA #####
+# /system/etc/prop.default
+ro.semc.version.sw=1307-7511
+ro.semc.version.sw_revision=47.1.A.12.145
+ro.semc.version.sw_variant=GLOBAL-LTE4A
+ro.semc.version.sw_type=user
+
+# /system/build.prop
+ro.semc.product.model=G8441
+ro.semc.ms_type_id=PM-1061-BV
+ro.semc.version.fs=GENERIC
+ro.semc.version.fs_revision=47.1.A.12.145
+ro.semc.product.name=Xperia XZ1 Compact
+ro.semc.product.device=G84
+
+### KEYPROVD
+# FIDO key provision state and version
+persist.keyprovd.fido.prov=false
+persist.keyprovd.fido.version=0
+
+# Attestation Key provision state and version
+persist.keyprovd.attest.prov=false
+persist.keyprovd.attest.version=0
+
+# Suntory BLOBs have been processing state
+persist.keyprovd.suntory.prov=false
+
+## CAMERA
+camera.aux.packagelist=org.codeaurora.snapcam,org.cyanogenmod.snap
+persist.camera.camera2=true
+persist.camera.is_type=3
