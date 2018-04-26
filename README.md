@@ -29,6 +29,7 @@ How to build ResurrectionRemix Oreo
             <project name="russel5/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="oreo" />
             <project name="russel5/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="oreo" />
             <project name="russel5/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="oreo" />
+            <project name="russel5/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="oreo" />
         </manifest>
 
 * Sync the repo:
