@@ -30,11 +30,14 @@ How to build ResurrectionRemix Oreo
             <project name="russel5/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="oreo" />
             <project name="russel5/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="oreo" />
             <project name="russel5/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="oreo" />
+            <project name="russel5/repo_update" path="device/sony/repo_update" remote="github" revision="oreo">
+                <linkfile src="repo_update.sh" dest="repo_update.sh" />
+            </project>
         </manifest>
 
 * Sync the repo:
 
-        repo sync -j8 -c
+        ./repo_update.sh
 
 * Setup the environment
 
