@@ -7,7 +7,7 @@ ifeq ($(WITH_FDROID),true)
 $(call inherit-product, vendor/fdroid/fdroid-vendor.mk)
 endif
 
-### DALVIK/HWUI
+### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 DEVICE_PATH := device/sony/lilac
