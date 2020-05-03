@@ -26,11 +26,11 @@ How to build ResurrectionRemix Oreo
         <manifest>
             <!-- SONY -->
             <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-15.1" />
-            <project name="russel5/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="oreo" />
-            <project name="russel5/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="oreo" />
-            <project name="russel5/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="oreo" />
-            <project name="russel5/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="oreo" />
-            <project name="russel5/repo_update" path="device/sony/repo_update" remote="github" revision="oreo">
+            <project name="hockeymikey/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="oreo" />
+            <project name="hockeymikey/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="oreo" />
+            <project name="hockeymikey/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="oreo" />
+            <project name="hockeymikey/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="oreo" />
+            <project name="hockeymikey/repo_update" path="device/sony/repo_update" remote="github" revision="oreo">
                 <linkfile src="repo_update.sh" dest="repo_update.sh" />
             </project>
         </manifest>
