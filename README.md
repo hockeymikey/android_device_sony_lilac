@@ -43,7 +43,8 @@ How to build ResurrectionRemix Oreo
 
         source build/envsetup.sh
         lunch
-        (for lunch make sure to pick the last one, lilac-userdebug. So you'd enter the number for it like 17 or whatever it is. lilac-eng works too but is for testing more so.)
+        
+     (for lunch make sure to pick the last one, lilac-userdebug. So you'd enter the number for it like 17 or whatever it is. lilac-eng works too but is for testing more so.)
 
 * Build ResurrectionRemix
 
